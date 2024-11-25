@@ -1,0 +1,32 @@
+site_name: SDY Wiki
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.
+  
+nav:
+  - Home: index.md
+  - About:
+    - About The Project: about/about.md
+  - Code:
+    - Java: code/java/java.md
+    - .Net: code/net/net.md
+    - .Net6: code/net6/net6.md
+  - General Directives:
+    - Guide to Best-Practice Application Patterns: anvisninger/Generelt_anvendelsesmoenstreIndekserne.md
+    - Guide to Best-Practice Directives: anvisninger/Generelt_vejledningTilAnvisningerIndekserne.md
+  - Directives SDI:
+    - Document Object: anvisninger/SDI/AnvendelseDokumentobjektetSagsDokumentindekset.md
+    - Case Object: anvisninger/SDI/AnvendelseSagsobjektetSagsDokumentindekset.md
+  - Directives YDI:
+    - Grant (Bevillings) Object: anvisninger/YDI/AnvendelseBevillingsobjektetYdelsesindekset.md
+    - Economic Effectuation (Økonomisk Effektuerings) Object: anvisninger/YDI/AnvendelseOekonomiskEffektueringsobjektetYdelsesindekset.md
